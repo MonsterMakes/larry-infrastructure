@@ -1,7 +1,7 @@
 {
 	"name": "@monstermakes/larry-infrastructure",
 	"description": "Larry infrastructure tools, utilities, and other helper functions.",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"publishConfig": {},
 	"bin": {
 		"larry": "./bin/larry-infrastructure.js"
@@ -32,8 +32,8 @@
 		"test-unit-coverage": "echo '=> Running Tests w/ Coverage...' && nyc npm run test-unit && nyc --reporter=html report && nyc --lines 60 --functions 62 --branches 33 --per-file check-coverage"
 	},
 	"dependencies": {
-		"@monstermakes/larry-cli": "^0.1.2",
-		"@monstermakes/larry-scaffolds": "^1.1.1",
+		"@monstermakes/larry-cli": "*",
+		"@monstermakes/larry-scaffolds": "*",
 		"@slack/client": "^4.8.0",
 		"axios": "^0.18.0",
 		"fs-extra": "^7.0.1",
@@ -43,7 +43,7 @@
 		"vorpal": "^1.11.4"
 	},
 	"devDependencies": {
-		"@monstermakes/larry-executioner": "0.0.2",
+		"@monstermakes/larry-executioner": "*",
 		"chai": "^4.2.0",
 		"chai-as-promised": "^7.1.1",
 		"chai-files": "^1.4.0",

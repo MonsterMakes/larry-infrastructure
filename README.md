@@ -104,5 +104,7 @@ This command requires a few Environment variables or some can be sent via comman
 ---
 
 ## TODO
-1. Monster Makes does not have an official JIRA instance so the integration tests are broken at this point
+1. Monster Makes does not have an official JIRA instance so 
+	- the integration tests are broken at this point
+	- the JIRA cli module is broken
 2. Monster Makes does not have an official Slack instance so the integration tests are broken at this point
