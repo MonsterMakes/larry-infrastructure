@@ -1,3 +1,5 @@
+# THIS PROJECT IS NOW BEING MAINTAINED IN THE LARRY (https://github.com/MonsterMakes/larry) MONOREPO
+
 # @monstermakes/larry-infrastructure
 
 [![npm version](https://badge.fury.io/js/@monstermakes/larry-infrastructure.svg)](https://badge.fury.io/js/@monstermakes/larry-infrastructure)
